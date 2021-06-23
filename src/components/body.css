@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.cont{
+  font-family: 'Nunito', sans-serif;
+  padding-top: 5%;
+  padding:1%;
+}
+
+.city{
+  margin-left: 5px;
+  font-size:40px;
+}
+.country{
+  margin-left: 5px;
+  font-size:20px;
+}
+.temp{
+  margin-left: 5px;
+  font-size:80px;
+  padding:5px;
+  text-align: center;
+}
+.oinfoh{
+  font-size:20px;
+  
+}
+.val{
+  font-size: 40px;
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+.rsec{
+  text-align: center;
+  border-left: solid;
+  border-width: thin;
+  border-color: #ffffff65;
+}
+  .check{
+    background-color: black;
+  }
+  .oinfo{
+    border:solid;
+    border-color: #ffffff65;
+    border-radius: 10px;
+    height: 100%;
+    padding:1%;
+    text-align: center;
+  }
+.weaicon{
+  width: 100px;
+  margin: 10px;
+ padding: 3px;
+  border:solid;
+    border-color: #ffffff65;
+    border-radius: 10px;
+}
+
+  
+  .divi{
+    border-right: solid;
+    border-color: #ffffff65;
+    border-width: thin;
+    font-size:20px;
+  }
+  @media only screen and (max-width: 500px)  {
+    .divi{
+      border-bottom: solid;
+      border-right: none;
+      border-width: thin;
+    }
+ 
+  }
+  @media only screen and (max-width: 460px)  {
+  
+    .rsec{
+      border-left: none;
+      border-top: solid;
+      border-color: #ffffff65;
+      border-width: thin;
+    }
+  }

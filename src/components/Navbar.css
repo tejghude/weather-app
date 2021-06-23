@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+.mheading{
+    font-size:40px;
+    font-family: 'Lobster Two', cursive;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 5px;
+  }
+  .search{
+      justify-content: center;
+  }
+  .minput{
+    color: #ffffff;
+    background-color: #ffffff00;
+    font-size: 20px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border: none; 
+    border-width: thin;
+    border-color: #ffffff;
+    border-radius: 10px;
+    padding:5px;
+    padding-left: 12px;
+    margin: 10px;
+    width: 90%;
+    backdrop-filter: blur(5px);
+    outline: none;
+  }
+
+
+
+  ::placeholder {
+    color: #dfdfdf;
+    opacity: 1; /* Firefox */
+  }
+  
