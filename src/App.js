@@ -54,7 +54,7 @@ inputData:""
 
   changeWeather =(e) => {
     e.preventDefault();
-    Axios.get(`http://api.weatherstack.com/current?access_key=e661087fd4b5a412566e469bc196a694&query=${this.state.inputData}`).then(res => {
+    Axios.get(`https://api.weatherstack.com/current?access_key=e661087fd4b5a412566e469bc196a694&query=${this.state.inputData}`).then(res => {
       let weatherData = {
         location: res.data.location.name,
         temperature: res.data.current.temperature,
