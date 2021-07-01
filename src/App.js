@@ -25,7 +25,7 @@ inputData:""
       }
       this.setState({coords:newCoords});
       //api
-      Axios.get(`http://api.weatherstack.com/current?access_key=e661087fd4b5a412566e469bc196a694&query=${this.state.coords.latitude},${this.state.coords.longitude}`).then(res=>{
+      Axios.get(`https://api.weatherstack.com/current?access_key=e661087fd4b5a412566e469bc196a694&query=${this.state.coords.latitude},${this.state.coords.longitude}`).then(res=>{
         let weatherData ={
           location: res.data.location.name,
           temperature: res.data.current.temperature,
